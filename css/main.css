@@ -1,3 +1,53 @@
 /*
  * Estilos de tu proyecto
  */
+body{
+	margin: 0 auto; /*corregir el margen automatico de body*/
+}
+/*estilos del header*/
+header{
+	background-color: #E1E1E1;
+}
+#logo{
+	width: 15em;
+}
+.logo{
+	display: flex;
+	justify-content: space-around;
+}
+#menu{
+	appearance: none;
+	border: none;
+	background-color: #E1E1E1;
+	font-size: 2em;
+	height: 1.2em;
+	width: 13em;
+	margin-top: 1em;
+}
+#menu:focus{
+	outline: none;
+}
+#menu option{
+	font-size: 0.6em;
+}
+.selection{
+	display: flex;
+	justify-content: flex-end;
+}
+ul{
+	list-style: none;
+	margin-right: 16em;
+	margin-top: 0;
+}
+ul li{
+	display: inline-flex;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.2em;
+}
+ul li a:focus{
+	border-bottom: 0.2em solid #F7B617;
+}
+/*fin estilos del header*/
