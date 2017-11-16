@@ -3,8 +3,46 @@
   <head>
     <meta charset="utf-8">
     <title>Data Dashboard</title>
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+ <!--encabezado-->
+	<header>
+		<nav>
+<!--logo-->
+			<img src="assets/images/logo-laboratoria.svg" alt="">
+<!--menu desplegable sede-->
+			<select name="sedes" id="menu">
+				<option value="1">Santiago</option>
+				<option value="2">Peru</option>
+				<option value="3">Mexico</option>
+				<option value="4"></option>
+			</select>
+<!--menu seleccion-->
+			<ul>
+				<li>Overview</li>
+				<li>Estudiantes</li>
+				<li>Profesores</li>
+			</ul>
+		</nav>
+	</header>
+<!--secciones de datos-->
+	<section class="datos">
+		<div class="enrollment"></div>
+		<div class="achievement"></div>
+		<div class="net-promoter-score"></div>
+		<div class="tech-skills"></div>
+		<div class="life-skills"></div>
+		<div class="student-satisfaction"></div>
+		<div class="teacher-rating"></div>
+		<div class="jedi-master-rating"></div>
+	</section>
+<!--footer-->
+	<footer>
+		
+	</footer>
+
+
 
 		<!-- Base de datos -->
 		<script src="./js/data.js"></script>
