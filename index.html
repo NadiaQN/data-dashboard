@@ -38,16 +38,14 @@
 				</select>
 			</div>
 <!--menu seleccion-->
-		<div class="selection">
-			<ul>
-				<li><a href="#">Overview</a></li>
-				<li><a href="#">Estudiantes</a></li>
-				<li><a href="#">Profesores</a></li>
-			</ul>
+		<div class="tab">
+			<button id="overview" class="tablinks" onclick="openPage(event, 'overview')">Overview</button>
+			<button id="estudiantes" class="tablinks" onclick="openPage(event, 'estudiantes')">Estudiantes</button>
+			<button id="profesores" class="tablinks" onclick="openPage(event, 'profesores')">Profesores</button>
 		</div>
 	</header>
 <!--secciones de datos-->
-	<section class="datos">
+	<section class="datos tabcontent" id="data">
 		<div class="enrollment"></div>
 		<div class="achievement"></div>
 		<div class="net-promoter-score"></div>
@@ -57,9 +55,21 @@
 		<div class="teacher-rating"></div>
 		<div class="jedi-master-rating"></div>
 	</section>
+<!--seccion de estudiantes-->
+	<section class="students tabcontent" id="estudent">
+		
+	</section>
+<!-- seccion de profesores-->
+	<section class="teachers tabcontent" id="teacher">
+		
+	</section>
 <!--footer-->
 	<footer>
-		
+		<select name="idioma" id="idioma">
+			<option value="1">Español</option>
+			<option value="2">Ingles</option>
+			<option value="3">Portugues</option>
+		</select>
 	</footer>
 
 

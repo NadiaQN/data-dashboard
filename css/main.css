@@ -6,7 +6,7 @@ body{
 }
 /*estilos del header*/
 header{
-	background-color: #E1E1E1;
+	background-color: #F4E218;
 }
 #logo{
 	width: 15em;
@@ -18,7 +18,7 @@ header{
 #menu{
 	appearance: none;
 	border: none;
-	background-color: #E1E1E1;
+	background-color: #F4E218;
 	font-size: 2em;
 	height: 1.2em;
 	width: 13em;
@@ -30,24 +30,22 @@ header{
 #menu option{
 	font-size: 0.6em;
 }
-.selection{
+.tab{
 	display: flex;
 	justify-content: flex-end;
 }
-ul{
-	list-style: none;
-	margin-right: 16em;
-	margin-top: 0;
+.tablinks{
+	border: none;
+	background-color: #F4E218;
+	font-size: 1em;
 }
-ul li{
-	display: inline-flex;
+.tablinks:last-child{
+	margin-right: 15em;
 }
-ul li a{
-	text-decoration: none;
-	color: black;
-	font-size: 1.2em;
+.tablinks:focus{
+	outline: none;
+	border-bottom: 0.2em solid black;
 }
-ul li a:focus{
-	border-bottom: 0.2em solid #F7B617;
-}
+/*efecto de los botones del header*/
+
 /*fin estilos del header*/
