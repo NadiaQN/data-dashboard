@@ -1,3 +1,160 @@
 /*
  * Estilos de tu proyecto
  */
+.datos{
+	
+}
+
+ .enrollment{
+ 	background: #FFE4C4;
+ 	height:300px;
+ 	width: 400px;
+	border-radius: 4px;
+ 	outline: 1px red solid;
+ 	display:inline-flex;
+ 	margin-left: 100px;
+ 	margin-right: 20px;
+ 	margin-bottom: 20px;
+ }
+ .p1 {
+ 	font-family:arial; 
+ 	font-size:16px;
+ 	position: relative;
+ 	left: 200px;
+ 	display: flex;
+
+}
+
+.img1{
+	width: 200px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 100px;
+	
+}
+.achievement {
+	background: #FFE4C4;
+ 	height:300px;
+ 	width: 400px;
+ 	border-radius: 4px;
+ 	outline: 1px red solid;
+ 	display:inline-flex;
+ 	margin-right: 20px;
+}
+.img2{
+	width: 200px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+
+.net-promoter-score{
+	background: #FFE4C4;
+ 	height:300px;
+ 	width: 400px;
+ 	border-radius: 4px;
+ 	outline: 1px red solid;
+ 	display:inline-flex;
+}
+.img3{
+	width: 200px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+.tech-skills{
+	background: #FFE4C4;
+ 	height:400px;
+ 	width: 1200px;
+ 	border-radius: 4px;
+ 	outline: 1px red solid;
+ 	display:inline-flex;
+ 	margin-left: 100px;
+ 	margin-bottom: 20px;
+}
+
+
+.img4{
+	width: 200px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 100px;
+
+}
+
+.img5{
+	width: 200px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+.life-skills{
+	background: #FFE4C4;
+ 	height:400px;
+ 	width: 1200px;
+ 	display:inline-flex;
+ 	border-radius: 4px;
+ 	outline: 1px red solid;
+ 	margin-left: 100px;
+ 	margin-bottom: 20px;
+ }
+ .img6{
+ 	width: 200px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 100px;
+
+ }
+
+ .img7{
+ 	width: 200px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 100px;
+ }
+.student-satisfaction{
+	background: #FFE4C4;
+ 	height:300px;
+ 	width: 400px;
+ 	display:inline-flex;
+ 	border-radius: 4px;
+ 	outline: 1px red solid;
+ 	margin-left: 100px;
+ 	margin-right: 20px;
+}
+.img8{
+	width: 200px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+.teacher-rating{
+	background: #FFE4C4;
+ 	height:300px;
+ 	width: 400px;
+ 	display:inline-flex;
+ 	border-radius: 4px;
+ 	outline: 1px red solid;
+ 	margin-right: 20px;
+}
+.img9{
+	width: 200px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+.jedi-master-rating{
+	background: #FFE4C4;
+ 	height:300px;
+ 	width: 400px;
+ 	display:inline-flex;
+ 	border-radius: 4px;
+ 	outline: 1px red solid;
+ 	margin-right: 20px;
+}
+.img10{
+	width: 200px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 100px;
+}
