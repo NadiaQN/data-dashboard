@@ -1,50 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Dashboard</title>
-    <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
- <!--encabezado-->
+<head>
+	<meta charset="utf-8">
+	<title>Data Dashboard</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<!--encabezado-->
 	<header>
-<!--logo-->
+		<!--logo-->
 		<div class="logo">
 			<img id="logo" src="assets/images/logo-laboratoria.svg" alt="">
-<!--menu desplegable sede-->
-				<select name="sedes" id="menu">
-					<option value="1">Santiago de Chile 2017 - 2</option>
-					<option value="2">Santiago de Chile 2017 - 1</option>
-					<option value="3">Santiago de Chile 2016 - 2</option>
-					<option value="4">Santiago de Chile 2016 - 1</option>
-					<option value="5">Santiago de Chile 2015 - 1</option>
-					<option value="6">Lima 2017 - 2</option>
-					<option value="7">Lima 2017 - 1</option>
-					<option value="8">Lima 2016 - 2</option>
-					<option value="9">Lima 2016 - 1</option>
-					<option value="10">Lima 2015 - 2</option>
-					<option value="11">Lima 2015 - 1</option>
-					<option value="12">Arequipa 2017 - 2</option>
-					<option value="13">Arequipa 2017 - 1</option>
-					<option value="14">Arequipa 2016 - 2</option>
-					<option value="15">Arequipa 2016 - 1</option>
-					<option value="16">Arequipa 2015 - 1</option>
-					<option value="17">Ciudad de México 2017 - 2</option>
-					<option value="18">Ciudad de México 2017 - 1</option>
-					<option value="19">Ciudad de México 2016 - 2</option>
-					<option value="20">Ciudad de México 2016 - 1</option>
-					<option value="21">Ciudad de México 2015 - 1</option>
+			<!--menu desplegable sede-->
+			<select name="sedes" id="menu">
+				<option value="1">Santiago de Chile 2017 - 2</option>
+				<option value="2">Santiago de Chile 2017 - 1</option>
+				<option value="3">Santiago de Chile 2016 - 2</option>
+				<option value="4">Santiago de Chile 2016 - 1</option>
+				<option value="5">Santiago de Chile 2015 - 1</option>
+				<option value="6">Lima 2017 - 2</option>
+				<option value="7">Lima 2017 - 1</option>
+				<option value="8">Lima 2016 - 2</option>
+				<option value="9">Lima 2016 - 1</option>
+				<option value="10">Lima 2015 - 2</option>
+				<option value="11">Lima 2015 - 1</option>
+				<option value="12">Arequipa 2017 - 2</option>
+				<option value="13">Arequipa 2017 - 1</option>
+				<option value="14">Arequipa 2016 - 2</option>
+				<option value="15">Arequipa 2016 - 1</option>
+				<option value="16">Arequipa 2015 - 1</option>
+				<option value="17">Ciudad de México 2017 - 2</option>
+				<option value="18">Ciudad de México 2017 - 1</option>
+				<option value="19">Ciudad de México 2016 - 2</option>
+				<option value="20">Ciudad de México 2016 - 1</option>
+				<option value="21">Ciudad de México 2015 - 1</option>
 
-				</select>
-			</div>
-<!--menu seleccion-->
+			</select>
+		</div>
+		<!--menu seleccion-->
 		<div class="tab">
 			<button id="overview" class="tablinks" onclick="openPage(event, 'overview')">Overview</button>
 			<button id="estudiantes" class="tablinks" onclick="openPage(event, 'estudiantes')">Estudiantes</button>
 			<button id="profesores" class="tablinks" onclick="openPage(event, 'profesores')">Profesores</button>
 		</div>
 	</header>
-<!--secciones de datos-->
+	<!--secciones de datos-->
 	<section class="datos tabcontent" id="data">
 		<div class="enrollment"></div>
 		<div class="achievement"></div>
@@ -54,16 +54,58 @@
 		<div class="student-satisfaction"></div>
 		<div class="teacher-rating"></div>
 		<div class="jedi-master-rating"></div>
+	</section>	
+
+	<section class="datos">
+		<div class="enrollment">
+			<p class="p1">Enrollement</p>
+			<img class="img1" src="assets/images/bar-graph.png">
+
+		</div>
+		<div class="achievement">
+			<p class="p2">Achievement</p>
+			<img class="img2" src="assets/images/graph.png">
+		</div>
+		<div class="net-promoter-score">
+			<p>Net Promoter Score</p>
+			<img class="img3" src="assets/images/graph2.png">
+		</div>
+		<div class="tech-skills">
+			<p>Enrollement</p>
+			<img class="img4" src="assets/images/rectangular-graphic.png">
+			<img  class="img5" src="assets/images/circle-graphic.png">
+		</div>
+		<div class="life-skills">
+			<p>Enrollement</p>
+			<img class="img4" src="assets/images/rectangular-graphic.png">
+			<img class="img5"  src="assets/images/circle-graphic.png">
+			
+		</div>
+		<div class="student-satisfaction">
+			<p>Enrollement</p>
+			<img class="img7" src="assets/images/graph.png">
+
+		</div>
+		<div class="teacher-rating">
+			<p>Enrollement</p>
+			<img class="img2"  src="assets/images/graph.png">
+		</div>
+		<div class="jedi-master-rating">
+			<p>Enrollement</p>
+			<img class="img3" src="assets/images/graph2.png">
+		</div>
 	</section>
-<!--seccion de estudiantes-->
+	
+	<!--seccion de estudiantes-->
+
 	<section class="students tabcontent" id="estudent">
 		
 	</section>
-<!-- seccion de profesores-->
+	<!-- seccion de profesores-->
 	<section class="teachers tabcontent" id="teacher">
 		
 	</section>
-<!--footer-->
+	<!--footer-->
 	<footer>
 		<select name="idioma" id="idioma">
 			<option value="1">Español</option>
@@ -74,9 +116,9 @@
 
 
 
-		<!-- Base de datos -->
-		<script src="./js/data.js"></script>
-		<!-- Aquí va tus archivos JS -->
-    <script src="./js/app.js"></script>
-  </body>
+	<!-- Base de datos -->
+	<script src="./js/data.js"></script>
+	<!-- Aquí va tus archivos JS -->
+	<script src="./js/app.js"></script>
+</body>
 </html>
