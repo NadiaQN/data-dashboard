@@ -50,41 +50,44 @@ header{
 
 /*fin estilos del header*/
 
- .enrollment{
- 	background: #FFE4C4;
- 	height:300px;
- 	width: 400px;
-	border-radius: 4px;
- 	outline: 1px red solid;
+.enrollment{
+ 	background: white;
+ 	height:16em;
+ 	width: 20em;
+	border-radius: 1em;
+ 	outline: 0.2em red solid;
  	display:inline-flex;
- 	margin-left: 100px;
- 	margin-right: 20px;
- 	margin-bottom: 20px;
+ 	position: relative;
+ 	top: 2em;
+ 	left: 6em;
  }
  .p1 {
  	font-family:arial; 
- 	font-size:16px;
+ 	height: 2em;
+ 	font-size:1.5em;
  	position: relative;
- 	left: 200px;
+ 	left: 0.5em;
  	display: flex;
 
 }
-
 .img1{
-	width: 200px;
-	height: 200px;
-	margin-left: 100px;
-	margin-top: 100px;
+	width: 12em;
+	height: 9em;
+	position: relative;
+	right:7em;
+	top:7em;
 	
 }
 .achievement {
-	background: #FFE4C4;
- 	height:300px;
- 	width: 400px;
- 	border-radius: 4px;
- 	outline: 1px red solid;
+	background: white;
+ 	height:16em;
+ 	width: 20em;
+	border-radius: 1em;
+ 	outline: 0.2em red solid;
  	display:inline-flex;
- 	margin-right: 20px;
+ 	position: relative;
+ 	top: 2em;
+ 	left: 6em;
 }
 .img2{
 	width: 200px;
@@ -94,12 +97,15 @@ header{
 }
 
 .net-promoter-score{
-	background: #FFE4C4;
- 	height:300px;
- 	width: 400px;
- 	border-radius: 4px;
- 	outline: 1px red solid;
+	background: white;
+ 	height:16em;
+ 	width: 20em;
+	border-radius: 1em;
+ 	outline: 0.2em red solid;
  	display:inline-flex;
+ 	position: relative;
+ 	top: 2em;
+ 	left: 6em;
 }
 .img3{
 	width: 200px;
@@ -108,14 +114,15 @@ header{
 	margin-top: 100px;
 }
 .tech-skills{
-	background: #FFE4C4;
- 	height:400px;
- 	width: 1200px;
- 	border-radius: 4px;
- 	outline: 1px red solid;
+	background: white;
+ 	height:16em;
+ 	width: 20em;
+	border-radius: 1em;
+ 	outline: 0.2em red solid;
  	display:inline-flex;
- 	margin-left: 100px;
- 	margin-bottom: 20px;
+ 	position: relative;
+ 	top: 2em;
+ 	left: 6em;
 }
 
 
@@ -134,14 +141,15 @@ header{
 	margin-top: 100px;
 }
 .life-skills{
-	background: #FFE4C4;
- 	height:400px;
- 	width: 1200px;
+	background: white;
+ 	height:16em;
+ 	width: 20em;
+	border-radius: 1em;
+ 	outline: 0.2em red solid;
  	display:inline-flex;
- 	border-radius: 4px;
- 	outline: 1px red solid;
- 	margin-left: 100px;
- 	margin-bottom: 20px;
+ 	position: relative;
+ 	top: 2em;
+ 	left: 6em;
  }
  .img6{
  	width: 200px;
@@ -158,14 +166,15 @@ header{
 	margin-top: 100px;
  }
 .student-satisfaction{
-	background: #FFE4C4;
- 	height:300px;
- 	width: 400px;
+	background: white;
+ 	height:16em;
+ 	width: 20em;
+	border-radius: 1em;
+ 	outline: 0.2em red solid;
  	display:inline-flex;
- 	border-radius: 4px;
- 	outline: 1px red solid;
- 	margin-left: 100px;
- 	margin-right: 20px;
+ 	position: relative;
+ 	top: 2em;
+ 	left: 6em;
 }
 .img8{
 	width: 200px;
@@ -174,13 +183,15 @@ header{
 	margin-top: 100px;
 }
 .teacher-rating{
-	background: #FFE4C4;
- 	height:300px;
- 	width: 400px;
+	background: white;
+ 	height:16em;
+ 	width: 20em;
+	border-radius: 1em;
+ 	outline: 0.2em red solid;
  	display:inline-flex;
- 	border-radius: 4px;
- 	outline: 1px red solid;
- 	margin-right: 20px;
+ 	position: relative;
+ 	top: 2em;
+ 	left: 6em;
 }
 .img9{
 	width: 200px;
@@ -189,13 +200,15 @@ header{
 	margin-top: 100px;
 }
 .jedi-master-rating{
-	background: #FFE4C4;
- 	height:300px;
- 	width: 400px;
+	background: white;
+ 	height:16em;
+ 	width: 20em;
+	border-radius: 1em;
+ 	outline: 0.2em red solid;
  	display:inline-flex;
- 	border-radius: 4px;
- 	outline: 1px red solid;
- 	margin-right: 20px;
+ 	position: relative;
+ 	top: 2em;
+ 	left: 6em;
 }
 .img10{
 	width: 200px;
