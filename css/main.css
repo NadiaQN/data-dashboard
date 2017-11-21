@@ -59,34 +59,21 @@ select,p{
 	margin-top: 2em;
 }
 /*fin de estilos del footer*/
+/*estilos del section "datos"*/
 .enrollment{
  	background: white;
  	height:16em;
  	width: 20em;
 	border-radius: 1em;
  	outline: 0.2em red solid;
-
-/*estilos del section "datos"*/
- .enrollment{
- 	background: #FFE4C4;
- 	height:300px;
- 	width: 400px;
-	border-radius: 4px;
- 	outline: 1px red solid;
-
- 	display:inline-flex;
- 	position: relative;
- 	top: 2em;
- 	left: 6em;
- }
- .p1 {
+}
+.p1 {
  	font-family:arial; 
  	height: 2em;
  	font-size:1.5em;
  	position: relative;
  	left: 0.5em;
  	display: flex;
-
 }
 .img1{
 	width: 12em;
@@ -113,7 +100,6 @@ select,p{
 	margin-left: 100px;
 	margin-top: 100px;
 }
-
 .net-promoter-score{
 	background: white;
  	height:16em;
@@ -142,16 +128,12 @@ select,p{
  	top: 2em;
  	left: 6em;
 }
-
-
 .img4{
 	width: 200px;
 	height: 200px;
 	margin-left: 100px;
 	margin-top: 100px;
-
 }
-
 .img5{
 	width: 200px;
 	height: 200px;
@@ -168,21 +150,19 @@ select,p{
  	position: relative;
  	top: 2em;
  	left: 6em;
- }
+}
  .img6{
  	width: 200px;
 	height: 200px;
 	margin-left: 100px;
 	margin-top: 100px;
-
- }
-
- .img7{
+}
+.img7{
  	width: 200px;
 	height: 200px;
 	margin-left: 100px;
 	margin-top: 100px;
- }
+}
 .student-satisfaction{
 	background: white;
  	height:16em;
