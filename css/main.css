@@ -241,3 +241,7 @@ select,p{
 .info-students p{
 	font-size: 1.1em;
 }
+/*seccion profesores*/
+#teacher{
+	text-align: center;
+}
