@@ -42,20 +42,38 @@ header{
 .tablinks:last-child{
 	margin-right: 15em;
 }
+/*efecto de los botones del header*/
 .tablinks:focus{
 	outline: none;
 	border-bottom: 0.2em solid black;
 }
-/*efecto de los botones del header*/
-
 /*fin estilos del header*/
-
+/*Estilos del footer*/
+footer{
+	background-color: #F4E218;
+	height: 5em;
+	text-align: center;
+}
+select,p{
+	display: inline-flex;
+	margin-top: 2em;
+}
+/*fin de estilos del footer*/
 .enrollment{
  	background: white;
  	height:16em;
  	width: 20em;
 	border-radius: 1em;
  	outline: 0.2em red solid;
+
+/*estilos del section "datos"*/
+ .enrollment{
+ 	background: #FFE4C4;
+ 	height:300px;
+ 	width: 400px;
+	border-radius: 4px;
+ 	outline: 1px red solid;
+
  	display:inline-flex;
  	position: relative;
  	top: 2em;
@@ -216,4 +234,34 @@ header{
 	margin-left: 100px;
 	margin-top: 100px;
 }
-
+/*estilos de la seccion de estudiantes */
+.fa-search{
+	padding: 0.5em;
+	padding-right: 20em;
+	border: 0.1em solid black;
+	border-radius: 0.5em;
+	margin: 0.5em;
+}
+#estudent{
+	display: flex;
+	flex-direction: column;
+}
+.info-students{
+	display: flex;
+	align-self: flex-end;
+	border: 0.1em solid grey;
+	border-radius: 0.5em;
+	width: 30em;
+	margin: 1em;
+}
+.info-students img{
+	height: 6em;
+	margin: 0.5em;
+}
+.info-students p{
+	font-size: 1.1em;
+}
+/*seccion profesores*/
+#teacher{
+	text-align: center;
+}
