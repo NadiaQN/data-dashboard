@@ -214,4 +214,30 @@ select,p{
 	margin-left: 100px;
 	margin-top: 100px;
 }
-
+/*estilos de la seccion de estudiantes */
+.fa-search{
+	padding: 0.5em;
+	padding-right: 20em;
+	border: 0.1em solid black;
+	border-radius: 0.5em;
+	margin: 0.5em;
+}
+#estudent{
+	display: flex;
+	flex-direction: column;
+}
+.info-students{
+	display: flex;
+	align-self: flex-end;
+	border: 0.1em solid grey;
+	border-radius: 0.5em;
+	width: 30em;
+	margin: 1em;
+}
+.info-students img{
+	height: 6em;
+	margin: 0.5em;
+}
+.info-students p{
+	font-size: 1.1em;
+}
