@@ -214,6 +214,7 @@ select,p{
 	margin-left: 100px;
 	margin-top: 100px;
 }
+/*fin estilos seccion datos*/
 /*estilos de la seccion de estudiantes */
 .fa-search{
 	padding: 0.5em;
@@ -240,6 +241,16 @@ select,p{
 }
 .info-students p{
 	font-size: 1.1em;
+}
+#button{
+	border: none;
+	border-radius: 0.5em;
+	outline: none;
+	background-color: #F4E218;
+	color: white;
+	padding: 0.5em;
+	height: 2em;
+	margin-left: 10em;
 }
 /*seccion profesores*/
 #teacher{
