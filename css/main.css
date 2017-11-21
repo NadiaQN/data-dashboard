@@ -42,14 +42,25 @@ header{
 .tablinks:last-child{
 	margin-right: 15em;
 }
+/*efecto de los botones del header*/
 .tablinks:focus{
 	outline: none;
 	border-bottom: 0.2em solid black;
 }
-/*efecto de los botones del header*/
-
 /*fin estilos del header*/
+/*Estilos del footer*/
+footer{
+	background-color: #F4E218;
+	height: 5em;
+	text-align: center;
+}
+select,p{
+	display: inline-flex;
+	margin-top: 2em;
+}
+/*fin de estilos del footer*/
 
+/*estilos del section "datos"*/
  .enrollment{
  	background: #FFE4C4;
  	height:300px;

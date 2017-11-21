@@ -39,13 +39,13 @@
 		</div>
 		<!--menu seleccion-->
 		<div class="tab">
-			<button id="overview" class="tablinks" onclick="openPage(event, 'overview')">Overview</button>
-			<button id="estudiantes" class="tablinks" onclick="openPage(event, 'estudiantes')">Estudiantes</button>
-			<button id="profesores" class="tablinks" onclick="openPage(event, 'profesores')">Profesores</button>
+			<button id="overview" class="tablinks" onclick="openPage('data')">Dashboard</button>
+			<button id="estudiantes" class="tablinks" onclick="openPage('estudent')">Estudiantes</button>
+			<button id="profesores" class="tablinks" onclick="openPage('teacher')">Profesores</button>
 		</div>
 	</header>
 <!--secciones de datos-->
-	<section class="datos">
+	<section id="data" class="datos tabcontent">
 		<div class="enrollment">
 			<p class="p1">Enrollement</p>
 			<img class="img1" src="assets/images/bar-graph.png">
@@ -96,6 +96,7 @@
 	</section>
 	<!--footer-->
 	<footer>
+		<p>Idioma:</p>
 		<select name="idioma" id="idioma">
 			<option value="1">Español</option>
 			<option value="2">Ingles</option>
