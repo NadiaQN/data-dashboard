@@ -59,161 +59,54 @@ select,p{
 	margin-top: 2em;
 }
 /*fin de estilos del footer*/
+
+
+
 /*estilos del section "datos"*/
-.enrollment{
- 	background: white;
- 	height:16em;
- 	width: 20em;
-	border-radius: 1em;
- 	outline: 0.2em red solid;
+.container{
+	display: flex;
+	padding: 2em;
+	justify-content: space-around;
+/*estilos del section "datos"*/
+.container>*{
+	margin: 1em;
+	background-color: white;
+	height: 16em;
+	width: 20em;
 }
-.p1 {
- 	font-family:arial; 
- 	height: 2em;
- 	font-size:1.5em;
- 	position: relative;
- 	left: 0.5em;
- 	display: flex;
+.container img{
+	width: 17em;
 }
-.img1{
-	width: 12em;
-	height: 9em;
-	position: relative;
-	right:7em;
-	top:7em;
-	
+container2{
+	display: flex;
+	justify-content: space-around;
 }
-.achievement {
-	background: white;
- 	height:16em;
- 	width: 20em;
-	border-radius: 1em;
- 	outline: 0.2em red solid;
- 	display:inline-flex;
- 	position: relative;
- 	top: 2em;
- 	left: 6em;
+
+container2>*{
+	margin: 1em;
+	background-color: white;
+	height: 17em;
+	width: 30em;
 }
-.img2{
-	width: 200px;
-	height: 200px;
-	margin-left: 100px;
-	margin-top: 100px;
+container2 img{
+	width: 17em;
+	padding-left: 2em;
 }
-.net-promoter-score{
-	background: white;
- 	height:16em;
- 	width: 20em;
-	border-radius: 1em;
- 	outline: 0.2em red solid;
- 	display:inline-flex;
- 	position: relative;
- 	top: 2em;
- 	left: 6em;
+.container3{
+	display: flex;
+	padding: 2em;
+	justify-content: space-around;
 }
-.img3{
-	width: 200px;
-	height: 200px;
-	margin-left: 100px;
-	margin-top: 100px;
+.container3>*{
+	margin: 1em;
+	background-color: white;
+	height: 16em;
+	width: 20em;
 }
-.tech-skills{
-	background: white;
- 	height:16em;
- 	width: 20em;
-	border-radius: 1em;
- 	outline: 0.2em red solid;
- 	display:inline-flex;
- 	position: relative;
- 	top: 2em;
- 	left: 6em;
+container3 img{
+	width: 17em;
 }
-.img4{
-	width: 200px;
-	height: 200px;
-	margin-left: 100px;
-	margin-top: 100px;
-}
-.img5{
-	width: 200px;
-	height: 200px;
-	margin-left: 100px;
-	margin-top: 100px;
-}
-.life-skills{
-	background: white;
- 	height:16em;
- 	width: 20em;
-	border-radius: 1em;
- 	outline: 0.2em red solid;
- 	display:inline-flex;
- 	position: relative;
- 	top: 2em;
- 	left: 6em;
-}
- .img6{
- 	width: 200px;
-	height: 200px;
-	margin-left: 100px;
-	margin-top: 100px;
-}
-.img7{
- 	width: 200px;
-	height: 200px;
-	margin-left: 100px;
-	margin-top: 100px;
-}
-.student-satisfaction{
-	background: white;
- 	height:16em;
- 	width: 20em;
-	border-radius: 1em;
- 	outline: 0.2em red solid;
- 	display:inline-flex;
- 	position: relative;
- 	top: 2em;
- 	left: 6em;
-}
-.img8{
-	width: 200px;
-	height: 200px;
-	margin-left: 100px;
-	margin-top: 100px;
-}
-.teacher-rating{
-	background: white;
- 	height:16em;
- 	width: 20em;
-	border-radius: 1em;
- 	outline: 0.2em red solid;
- 	display:inline-flex;
- 	position: relative;
- 	top: 2em;
- 	left: 6em;
-}
-.img9{
-	width: 200px;
-	height: 200px;
-	margin-left: 100px;
-	margin-top: 100px;
-}
-.jedi-master-rating{
-	background: white;
- 	height:16em;
- 	width: 20em;
-	border-radius: 1em;
- 	outline: 0.2em red solid;
- 	display:inline-flex;
- 	position: relative;
- 	top: 2em;
- 	left: 6em;
-}
-.img10{
-	width: 200px;
-	height: 200px;
-	margin-left: 100px;
-	margin-top: 100px;
-}
+
 /*fin estilos seccion datos*/
 /*estilos de la seccion de estudiantes */
 .fa-search{
